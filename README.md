@@ -16,7 +16,7 @@ For each pixel we estimate its movement between the left and the right RGB image
 ## Implementation details
 **Arichtecture**: 
 PWC-net + Iterative Refinement + Cycle consistency <br>
-We base our architecture on the pretrained PWC-net. By iteratively apply the PWC-net on the residual flow we increase the accuracy in each iteration. Additionally we perform an inverse flow prediction to introduce a cycle consistency loss which further improves the quality of our flow estimatinon. <br><br>
+We base our architecture on the pretrained PWC-net. By iteratively applying the PWC-net on the residual flow we increase the accuracy in each iteration. Additionally we perform an inverse flow prediction to introduce a cycle consistency loss which further improves the quality of our flow estimation. <br><br>
 <img src="images/pic2.png"
      style="height: 300px" />
 
